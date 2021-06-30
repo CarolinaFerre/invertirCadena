@@ -1,0 +1,25 @@
+package ejerciciosdearrays;
+
+import java.util.Arrays;
+
+public class invertirCadena {
+	static String[]nuevacadena;
+	
+	public static String[] invertircadena(String[]cadena) {
+		nuevacadena=new String[cadena.length-1];
+		for(int i=cadena.length-1;i>=0;i--) {
+			System.out.print(cadena[i]);
+			
+		}
+		
+		return nuevacadena;
+	}
+	
+	public static void main(String[] args) {
+		String[] cadena= {"h","e","l","l","o"," ","t","h","e","r","e"};
+		
+		
+		invertirCadena.invertircadena(cadena);
+		
+	}
+}
