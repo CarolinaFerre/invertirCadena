@@ -9,3 +9,5 @@ hello there
 
 Ejemplo de salida:
 ereht olleh
+
+//ADJUNTO DOS MANERAS DE HACER EL EJERCICIO, UNO CON ARRAYS DE STRING Y OTRA CON STRING A TRAVÉS DE charAt
