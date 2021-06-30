@@ -1,0 +1,22 @@
+package ejerciciosdearrays;
+
+public class invertirCadena {
+	static String nuevacadena="";
+	
+	public static String invertircadena(String cadena) {
+		
+		for(int i=cadena.length()-1;i>=0;i--) {
+			nuevacadena+=cadena.charAt(i);
+			
+		}
+		
+		return nuevacadena;
+	}
+	
+	public static void main(String[] args) {
+		String cadena= ("hello there");
+		
+		System.out.println(invertirCadena.invertircadena(cadena));
+	}
+}
+
